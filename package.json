@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "socket.io": "^4.8.0"
+  },
+  "scripts": {
+    "build": "webpack --progress --colors",
+    "dev": "nodemon client/server.js --exec babel-node"
+}
+}
